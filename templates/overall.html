@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container p-3 my-3 bg-primary text-white">
+    <h1>The Total reviews are:</h1>
+{% for i in text %}
+{{i}}
+{% endfor %}
+</div>
+{% endblock %}
